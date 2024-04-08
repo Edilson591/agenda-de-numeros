@@ -1,0 +1,107 @@
+body {
+    background-color: #7b7d80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+}
+
+.container {
+    background-image: url(https://www.designi.com.br/images/preview/10232747.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 1250px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.container header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    padding: 15px;
+}
+.container header span { 
+    font-size: 1.5rem;
+}
+
+.container header h1 {
+    font-size: 2.0rem;
+    font-weight: bold;
+ }
+
+ form {
+    padding: 8px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+ }
+ 
+ form label {
+    font-size: 1rem;
+    font-weight: 700;
+ }
+
+ form input {
+     padding: 5px;
+     font-size: 1rem;
+}
+
+form button {
+    border: none;
+    background: #77dab0;
+    padding: 7px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all .5s;
+}
+
+form button:hover {
+    background: #48866c ;
+}
+
+table {
+    border-spacing: 0px;
+    width: 100%;
+}
+
+table td {
+    padding: 16px 0;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid #4d4c4cc2;
+}
+
+table th {
+    padding: 16px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid #110f0fc2;
+}
+
+#removeContact {
+    padding: 5px;
+    background: #ff0202;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all .5s;
+}
+
+#removeContact:hover{
+    background: #d63535;;
+}
+
+
+
+
+
+
